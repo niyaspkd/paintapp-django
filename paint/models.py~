@@ -1,0 +1,8 @@
+from django.db import models
+
+
+
+class Pic(models.Model):
+	name=models.CharField()
+	data=models.CharField()
+# Create your models here.
